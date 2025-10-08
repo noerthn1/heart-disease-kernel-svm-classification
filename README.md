@@ -90,7 +90,7 @@ Demonstrated how the model predicts a single patient case using input features.
 
 ## 🧰 Tech Stack
 
-- **Language:** Python 🐍  
+- **Language:** Python 
 - **Environment:** Google Colab  
 - **Libraries:**  
   - `pandas`, `numpy`, `matplotlib`, `seaborn`  
@@ -104,4 +104,6 @@ Demonstrated how the model predicts a single patient case using input features.
    ```bash
    git clone https://github.com/<your-username>/heart-disease-svm.git
    cd heart-disease-svm
-
+2. Open the notebook in Google Colab or Jupyter
+3. Upload the dataset (heart.csv)
+4. Run all cells sequentially
