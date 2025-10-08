@@ -79,7 +79,12 @@ Demonstrated how the model predicts a single patient case using input features.
 ---
 ## 🖼️ Visualization
 ![Confusion Matrix](images/cm_kernel_svm.png)
+
+&nbsp;
+
 ![Bar Chart](images/bar_chart.png)
+
+---
 ## 🧠 Key Learnings
 
 - How to use **SVM with RBF kernel** for non-linear problems  
