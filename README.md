@@ -69,4 +69,39 @@ Demonstrated how the model predicts a single patient case using input features.
 | Kernel SVM (default) | Balanced class weights | **0.8689** |
 | Kernel SVM (after tuning) | Best parameters via GridSearch | **0.8525** |
 
-**Confusion Matrix Example:**
+
+**Classification Report (default model):**
+| Metric | Precision | Recall | F1-Score |
+|:--------|:-----------|:--------|:----------|
+| No Disease (0) | 0.93 | 0.82 | 0.87 |
+| Disease (1) | 0.81 | 0.93 | 0.87 |
+
+---
+
+## 🧠 Key Learnings
+
+- How to use **SVM with RBF kernel** for non-linear problems  
+- The role of **`C`** and **`gamma`** in controlling the decision boundary  
+- Importance of **feature scaling** for SVM performance  
+- Using **Pipelines** to streamline workflow  
+- Basic **hyperparameter optimization** with `GridSearchCV`
+
+---
+
+## 🧰 Tech Stack
+
+- **Language:** Python 🐍  
+- **Environment:** Google Colab  
+- **Libraries:**  
+  - `pandas`, `numpy`, `matplotlib`, `seaborn`  
+  - `scikit-learn` (for SVM, preprocessing, metrics)
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/<your-username>/heart-disease-svm.git
+   cd heart-disease-svm
+
